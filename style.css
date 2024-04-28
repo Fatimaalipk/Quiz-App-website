@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+body{
+    width: 100%;
+    height: 100vh;
+      /* background-color: lightseagreen;  */
+       background-image: linear-gradient(45deg,purple,orange,red,green);
+      color: white;
+}
+.main_div{
+    margin-top: 3rem;
+   
+width: 100%;
+min-height: 100vh;
+display: grid;
+place-items: center;
+}
+h2{
+    font-size: 2.4rem;
+    color:orangered;
+    font-weight: bold;
+    margin: 1rem 0 4rem 0;
+}
+.inner_div{
+width: 50%;
+    background-color: #fff;
+    padding: 3rem 8rem;
+    color:orangered;
+    border-radius: 1rem;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+}
+.inner_div li{
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+input{
+    cursor: pointer;
+}
+input[type = 'radio']{
+    width: 20px;
+    height: 20px;
+color: red;
+} 
+#submit, .btn{
+    background-image: linear-gradient(45deg,purple,orange,red,green,purple);
+    color: #fff;  
+border-radius: 1rem;
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    font-size: 400;
+    display: block;
+    border: none;
+    margin: auto;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-right: 4rem;
+    transition: all 1s linear;
+    cursor: pointer;
+}
+#submit:hover{
+   background-color: darkorange;
+    color: #fff;
+
+}
+#showScore{
+    background-color: red;
+    color: #fff;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+#showScore h3{
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+
+}
+.scoreArea{
+    display: none;
+}
+.btn{
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    background-color:red;
+    border-radius: 1rem;
+}
+.btn:hover{
+    background-image: linear-gradient(45deg,purple,orange,red,green,purple);
+    color: #fff;  
+}
+img{
+    border-radius: 2rem;
+}
+@media(max-width:768px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+       
+    }
+    .main_div{
+   /* margin-top: 0; */
+     
+    width: 100%;
+
+      min-height: 100vh;
+    display: grid;
+    place-items: center; 
+    } 
+    .inner_div{
+        width: 100%;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+            background-color: #fff;
+            padding: 3rem 6rem;
+         
+            color:orangered;
+            border-radius: 1rem;
+            box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+            margin: auto;
+        }
+
+      h2{
+        font-size: 1.4rem;
+        color:orangered;
+        font-weight: bold;
+        margin: 1rem 0 4rem 0;
+    }
+    input[type = 'radio']{
+        width: 12px;
+        height: 12px;
+      margin-right: 1rem;
+    color: red;
+    } 
+    .inner_div li{
+      display: flex;
+    align-items: center;
+        font-size: 1rem;
+        font-weight: 300;
+        margin-top: 1.5rem;
+        list-style: none;
+    }
+    #showScore{
+        
+       margin: auto;
+      /* flex-direction: column;
+        justify-content: center;
+        align-items: center; */ 
+        background-color: red;
+        color: #fff;
+        margin-top: 3rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    }
+    #showScore p{
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-top: 1rem;
+        color: #fff;
+    }
+    #showScore button{
+      
+        font-size: 1.2rem;
+        padding: 1rem 1rem;
+    }
+
+    img{
+        width: 200px;
+       margin-bottom: 2rem;
+        
+    }
+   
+    #showScore h3{
+        margin-top: 4rem;
+        font-size: 1.1rem;
+        text-align: center;
+        display: flex;
+        margin: auto;
+
+    }
+    /* p{
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+  
+    h3 button{
+        padding: 1rem;
+    } */
+    #submit, .btn{
+        background-image: linear-gradient(45deg,purple,orange,red,green,purple);
+        color: #fff;  
+    border-radius: 1rem;
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+        font-size: 400;
+        display: block;
+        border: none;
+        margin: auto;
+        text-transform: uppercase;
+        margin-top: 2rem;
+        /* margin-right: 4rem; */
+        cursor: pointer;
+    }
+}
+
+     
+  
